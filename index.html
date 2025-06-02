@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cat Photo App</title>
+  <style>
+    h2 {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CatPhotoApp</h1>
+  <h2>Cat Photos</h2>
+  <p>Everybody loves <strong><span style="color:blue;">cute cats </span></strong>online!</p>
+  <p>See more <strong><span style="color:blue;">cat photos</span></strong> in our gallery.</p>
+<img src=""
+  <h3>Cat Lists</h3>
+  <h4>Things cats love:</h4>
+  <ul>
+    <li>Catnip</li>
+    <li>Lasers</li>
+    <li>Lasagna</li>
+  </ul>
+
+  <h3>Top 3 things cats hate:</h3>
+  <ol>
+    <li>Flea treatment</li>
+    <li>Thunder</li>
+    <li>Other cats</li>
+  </ol>
+
+  <h3>Cat Form</h3>
+  <form action="/submit-cat-form" method="post">
+    <p>Is your cat an indoor or outdoor cat?</p>
+    <label>
+      <input type="radio" name="indoor-outdoor" value="indoor" checked> Indoor
+    </label>
+    <label>
+      <input type="radio" name="indoor-outdoor" value="outdoor"> Outdoor
+    </label>
+
+    <p>What's your cat's personality?</p>
+    <label>
+      <input type="checkbox" name="personality" value="loving" checked> Loving
+    </label>
+    <label>
+      <input type="checkbox" name="personality" value="lazy"> Lazy
+    </label>
+    <label>
+      <input type="checkbox" name="personality" value="energetic"> Energetic
+    </label><br><br>
+
+    <textarea place holder ="cat photo url" rows="1" cols="20"></textarea>
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
